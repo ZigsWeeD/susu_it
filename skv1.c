@@ -25,6 +25,6 @@ void main()
     res=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
 
     //Вывод результата
-    printf("Расстояние между точками: %1.3lf\n", res);
+    printf("Расстояние между двумя точками: %1.3lf\n", res);
     system("pause");
 }
