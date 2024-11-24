@@ -26,6 +26,6 @@ void main()
     RESULT=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
 
     //Вывод результата
-    printf("Расстояние между двумя точками (%1.3lf, %1.3lf) и (%1.3lf, %1.3lf): : %1.3lf\n",x1, y1, x2, y2,RESULT);
+    printf("Расстояние между двумя точками на плоскости (%1.3lf, %1.3lf) и (%1.3lf, %1.3lf): : %1.3lf\n",x1, y1, x2, y2,RESULT);
     system("pause");
 }
