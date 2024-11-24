@@ -5,7 +5,7 @@
 void main() 
 {
     //Инициализация переменных
-    double x1, y1, x2, y2,res; 
+    double x1, y1, x2, y2,RESULT; 
 
     //Выбор страницы кодировки
     system("chcp 65001");
@@ -23,9 +23,9 @@ void main()
 
     //Алгоритм расчета
     //Вычисление
-    res=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
+    RESULT=sqrt(pow(x2-x1,2)+pow(y2-y1,2));
 
     //Вывод результата
-    printf("Расстояние между двумя точками (%1.3lf, %1.3lf) и (%1.3lf, %1.3lf): : %1.3lf\n",x1, y1, x2, y2,res);
+    printf("Расстояние между двумя точками (%1.3lf, %1.3lf) и (%1.3lf, %1.3lf): : %1.3lf\n",x1, y1, x2, y2,RESULT);
     system("pause");
 }
